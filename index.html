@@ -5,6 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Fabian Orlando Adolfo Krausse</title>
       <link rel="stylesheet" href="CSS/estilos.css">
+      <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&amp;family=Merienda:wght@400;700&amp;family=Satisfy&amp;family=Source+Code+Pro:wght@400;700&amp;display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/7b45868d3c.js" crossorigin="anonymous"></script><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
     </head>
     <body>
       <header>
@@ -15,10 +17,13 @@
           <ul>
             <li><a href="#"> Sobre </a></li>
             <li><a href="#portfolio"> Portfolio de proyectos </a></li>
-            <li><a href="#"> Contacto </a></li>
+            <li><a href="#contato"> Contacto </a></li>
             </ul>
         </nav>
         <div>
+          <figure class="site-title">
+            <img src="./img/Fabian.png" alt="foto Fabian Krausse">
+          </figure>
           <h1 class="site-title"> Fabian Krausse</h1>
           <h2 class="site-subtitle"> Business Intelligence & Data Science</h2>
           <h2 class="site-parrafo">Soy el Coordinador de Business Intelligence de Agrotec S.A., licenciado en dirección y administración de empresas. Antes de Agrotec, mi histórico agrega experiencias en empresas relacionadas al agro con importantes movimientos y operaciones, tanto regionales como nacionales, donde conocí a varios clientes y profesionales del rubro. Amante de mi trabajo, con apetito a superar desafíos, nuevos conocimientos y experiencias que ayudan a mí crecimiento y de la organización. Interesado en conversar e intercambiar experiencias y conocimientos..</h2>
@@ -27,17 +32,48 @@
         <img class="img-portada" src="https://media0.giphy.com/media/ZgTR3UQ9XAWDvqy9jv/200w.webp?cid=ecf05e47265c32e0bcfd5cace86853435810a716f4173bd4&rid=200w.webp" alt=">Mobile">
         </figure>
       </header>
-      <section>
-        <h2>Portfólio</h2>
-        <figure>
-          <a href="#"><img class="img-portfolio" src="./img/powerbi.png" alt=">Mobile"></a>
-        </figure>
-        <figure>
-          <a href="#"><img class="img-portfolio" src="./img/powerautomate.png" alt=">Mobile"></a>
-        </figure>
-        <figure>
-          <a href="#"><img class="img-portfolio" src="./img/datascience.png" alt=">Mobile"></a>
-        </figure>
+      <section id="portfolio" class="portfolio">
+        <h2>Proyectos</h2>
+        <div class="grid">
+          <figure>
+            <a href="#"><img class="img-portfolio" src="./img/powerbi.png" alt="Power BI (Ventas)"></a>
+            <figcaption>Power BI (Ventas)</figcaption>
+          </figure>
+          <figure>
+            <a href="#"><img class="img-portfolio" src="./img/powerautomate.png" alt="Power automate"></a>
+            <figcaption>Power Automate</figcaption>
+          </figure>
+          <figure>
+            <a href="#"><img class="img-portfolio" src="./img/datascience.png" alt="Data Science"></a>
+            <figcaption>Data Science</figcaption>
+          </figure>
+          <figure>
+            <a href="#"><img class="img-portfolio" src="./img/pywhats.jpg" alt="Python / WhatSapp"></a>
+            <figcaption>Python / WhatSapp</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="contato" id="contato">
+        <h2>Contato</h2>
+    
+        <div class="grid icons">
+          <a target="_blank" href="https://github.com/fkrausse">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/Fabian_adolfo">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://linkedin.com/in/fabian-krausse/">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://instagram.com/fabian_krausse">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="fabi_adolfo@hotmail.com">
+            <i class="far fa-envelope" aria-hidden="true"></i>
+          </a>
+    
+        </div>
       </section>
     </body>
 </html>
