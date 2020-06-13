@@ -65,7 +65,7 @@ header {
 }
 
 .menu a:hover {
-  color: orange;
+  color:blue;
   text-decoration: none;
 }
 
@@ -177,14 +177,14 @@ a:hover {
 
 .site-title {
   font-family: 'Satisfy', cursive;
-  font-size: 3em;
+  font-size: 5em;
   font-style: italic;
 }
 
 .site-title img {
   animation: ease-out 3s animacaoImagem forwards;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid;
@@ -192,9 +192,10 @@ a:hover {
 
 .site-parrafo {
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: Arial;
-  color: azure;
+  color: white;
+  margin-bottom: 1.4em;
 }
 
 @keyframes animacaoImagem {
@@ -209,6 +210,7 @@ a:hover {
 .site-subtitle {
   /* font-style: italic; */
   font-family: 'Indie Flower', cursive;
+  font-size: 3em;
 
 }
 
