@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SISCON</title>
+      <link rel="stylesheet" href="css/forms.css">
+    </head>
+    <body>
+        <h1 class="title">
+            Bienvenido al sistema de contabilidad de Fabian Krausse
+        </h1>
+        <p> Para ingresar al sistema favor proveedor usuario y contraseña </p>
+        <form class="formulario" method="POST" action="{{ url_for('autenticar') }}">
+            <input type="hidden" name="proxima" value="{{ proxima or url_for('index') }}">
+            <p><label>Id usuário:</label> <input class="form-control" type="text" name="usuario" required></p>
+            <p><label>Senha:</label> <input class="form-control" type="password" name="senha" required></p>
+            <p><button class="btn btn-primary" type="submit">Entrar</button></p>
+        </form>
+    </body>
+</html>
