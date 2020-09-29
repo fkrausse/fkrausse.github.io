@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super() }}
+    Power Bi (Ventas)
+{% endblock %}
+
+{% block content %}
+<li>
+    <img class="img-portfolio" src="{{ url_for('static', filename='img/powerbi.png') }}" alt="Power BI (Ventas)">
+    <h1>Power BI</h1>
+    <h2>
+        ¿Qué es Power BI?
+    </h2>
+    <p>
+        Power BI es la herramienta de Business Inteligence (BI) que incorpora la suite de productividad, Office 365 de Microsoft. Esta herramienta permite cruzar y analizar bases de datos y presentar toda la información en un único cuadro de mando que faciliten la toma de decisiones.
+    </p>
+    <p>
+        Un proyecto en que trabajo en los tiempos libres, para aplicar y probar nuevos conocimientos o nuevas funcionalidades que estan habilitados gratuitamente por Microsfot.
+    </p>
+    <iframe width="1024" height="620" src="https://app.powerbi.com/view?r=eyJrIjoiZTFmZjA2ZjEtZTU3Zi00OGRmLWJjODUtMjAzNjI3MzJjZTY5IiwidCI6Ijc1NzYzNzY2LTdmZjItNGYyMy1hNGJhLTAyNjFlZGIzMjdlNiJ9&pageName=ReportSection5d23ef822841cc08a1ab" frameborder="0" allowFullScreen="true"></iframe>
+</li>
+{% endblock %}

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sobre.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/article.css') }}">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
@@ -14,11 +15,39 @@
         {% endblock %}
     </title>
 </head>
-<header>
-    {% include 'navbar.html' %}
-</header>
 <body>
     {%block content %}
     {% endblock %}
 </body>
+<main>
+    <div>
+        <figure class="image">
+            <img src="{{ url_for('static', filename='img/foto_fabian.jpg') }}" alt="foto Fabian Krausse">
+        </figure>
+    </div>
+    <section class="contato" id="contato">
+        <div class="grid icons">
+        <a target="_blank" href="https://github.com/fkrausse">
+            <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/Fabian_adolfo">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/fabian-krausse/">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://instagram.com/fabian_krausse">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="mailto:fabi_adolfo@hotmail.com">
+            <i class="far fa-envelope" aria-hidden="true"></i>
+        </a>
+        </div>
+    </section>
+    <section class="article" id="article">
+        <li><a href="#"> Sobre Fabian Krausse</a></li>
+        <li><a href="{{ url_for('article') }}"> Power BI (Ventas)</a></li>
+        <li><a href="#"> Contacto </a></li>
+    </section>
+</main>
 </html>

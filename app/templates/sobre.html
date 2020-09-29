@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super() }}
+    Sobre
+{% endblock %}
+
+{% block content %}
+    <div>
+    <figure class="site-title">
+        <img src="{{ url_for('static', filename='img/foto_fabian.jpg') }}" alt="foto Fabian Krausse">
+    </figure>
+    <h1 class="site-title"> Fabian Adolfo Krausse</h1>
+    <h2 class="site-subtitle"> Business Intelligence | Data Science | Gestión de Créditos Agro</h2>
+    <h3 class="site-parrafo">
+        Soy licenciado en Administración y dirección de empresas, con varios años de experiencia en el área de los riesgos crediticios y a más de 2 años trabajando con análisis y visualizaciones de datos, también tengo conocimiento básico de programación y ciencia de datos en el lenguaje python.
+    </h3>
+    <h3 class="site-parrafo">
+        Actualmente soy el Coordinador de Business Intelligence de Agrotec S.A.
+    Antes de Agrotec, mi histórico agrega experiencias en empresas relacionadas al agro con importantes movimientos y operaciones, tanto nacionales como internacionales, donde conocí a varios clientes y profesionales del rubro.
+    </h3>
+    <h3 class="site-parrafo">Amante de mi trabajo, con apetito a superar desafíos, nuevos conocimientos y experiencias que ayudan a mí crecimiento personal y profesional.
+    Interesado en conversar e intercambiar experiencias y conocimientos.
+    </h3>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,40 @@
+body{
+  margin-left: 25%;
+}
+.site-title img{
+  width: 260px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 35%;
+  border: 5px solid;
+}
+.site-title{
+  color: black;
+  text-align: center;
+}
+
+.site-subtitle{
+  margin-top:10px;
+  color: black;
+  text-align: center;
+  margin-block-end: 35px;
+}
+
+.site-parrafo{
+  margin-top: 5px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+@media (min-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 1441px) {
+  body {
+      font-size: 18px;
+  }
+}
