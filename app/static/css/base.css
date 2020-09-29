@@ -1,0 +1,13 @@
+/* soft reset do css */
+
+@media (min-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1441px) {
+    body {
+        font-size: 18px;
+    }
+}
