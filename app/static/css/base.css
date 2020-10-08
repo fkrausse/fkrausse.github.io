@@ -1,23 +1,75 @@
 /* soft reset do css */
-main {
-    position: fixed;
-    background-color: whitesmoke;
-    width: 20%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    text-decoration: none;
-}
-.image img{
-    width: 180px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 35%;
-    border: 2px solid;
-    margin-top: 50px;
-}
 
+@media(min-width:950px){
+    .image img{
+        width: 180px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 35%;
+        border: 2px solid;
+        margin-top: 50px;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    main {
+        position: fixed;
+        background-color: whitesmoke;
+        width: 20%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        line-height: 1.2em;
+        text-decoration: none;
+    }
+}
+@media(max-width:950px){
+    .image img{
+        width: 150px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 35%;
+        border: 2px solid;
+        margin-top: 50px;
+    }
+    main {
+        position: fixed;
+        background-color: whitesmoke;
+        width: 20%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        line-height: 1.2em;
+        text-decoration: none;
+    }
+}
+@media (max-width: 415px){
+    .image img{
+        width: 50px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 35%;
+        border: 2px solid;
+        margin-top: 50px;
+    }
+    main {
+        position: fixed;
+        background-color: whitesmoke;
+        width: 20%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        line-height: 1.2em;
+        text-decoration: none;
+    }
+    .main figure{
+        display: block;
+        margin-block-start: 0;
+        margin-inline-start: 0;
+    }
+}
 li {
     margin-block-end: 25px;
     background-color: whitesmoke;
@@ -42,7 +94,7 @@ li a:hover {
     display: flex;
     flex-wrap: wrap;
     margin-block-end: 25px;
-    font-size: 25px;
+    font-size: 1.5em;
     color: whitesmoke;
     transition: text-shadow 500ms;
     margin: 10px;

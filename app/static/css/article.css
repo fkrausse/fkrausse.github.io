@@ -1,0 +1,33 @@
+body{
+    margin-left: 25%;
+    background-color: white;
+    text-align: center;
+}
+.image_title{
+    width:450px;
+    height: 250px;
+    border-radius: 5%;
+    text-align: center;
+}
+h1{
+color: #041D65;
+text-align: center;
+background-color: white;
+}
+
+h2{
+margin-top:5px;
+color: black;
+text-align: center;
+margin-block-end: 35px;
+background-color: white;
+}
+
+p{
+margin-top: 5px;
+color: black;
+font-family: sans-serif;
+font-weight: lighter;
+background-color: white;
+text-align: left;
+}

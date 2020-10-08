@@ -1,15 +1,21 @@
 body{
   margin-left: 25%;
 }
-.site-title img{
-  width: 260px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 35%;
-  border: 5px solid;
+
+@media (max-width: 600px) {
+  .site-title {
+      font-size: 14px;
+  }
+  .site-subtitle{
+    font-size: 12px;
+  }
+  .site-parrafo{
+    font-size:10px;
+  }
 }
+
 .site-title{
-  color: black;
+  color: #041D65;
   text-align: center;
 }
 
@@ -26,15 +32,10 @@ body{
   font-family: sans-serif;
   font-weight: lighter;
 }
-
-@media (min-width: 600px) {
-  body {
-      font-size: 14px;
-  }
-}
-
-@media (min-width: 1441px) {
-  body {
-      font-size: 18px;
-  }
+.site-title img{
+  width: 200px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 35%;
+  border: 5px solid;
 }
