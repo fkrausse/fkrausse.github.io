@@ -10,8 +10,49 @@
 <p>
     Power BI es la herramienta de Business Inteligence (BI) que incorpora la suite de productividad Office 365 de Microsoft. Esta herramienta permite cruzar y analizar bases de datos y presentar toda la información en un único cuadro de mando que faciliten la toma de decisiones.
 </p>
-<p>
-    Para mi es un proyecto que trabajo en los tiempos libres principalmente para aplicar y probar nuevos conocimientos o nuevas funcionalidades novedosas que lanza el equipo de Microsoft Power BI.
-</p>
+
 <iframe width="1024" height="620" src="https://app.powerbi.com/view?r=eyJrIjoiZTFmZjA2ZjEtZTU3Zi00OGRmLWJjODUtMjAzNjI3MzJjZTY5IiwidCI6Ijc1NzYzNzY2LTdmZjItNGYyMy1hNGJhLTAyNjFlZGIzMjdlNiJ9&pageName=ReportSection5d23ef822841cc08a1ab" frameborder="0" allowFullScreen="true"></iframe>
+
+<p>
+    Para mi es un proyecto que trabajo en los tiempos libres principalmente para aplicar y probar nuevos conocimientos o funcionalidades novedosas que lanza el equipo de Microsoft Power BI.
+</p>
+
+<h2> Obtención de datos </h2>
+<p>
+    Power Bi permite conectarse con varias bases de datos y te posibilita conectarse con varias fuentas de datos para trabajar.
+    Por ejemplo:
+</p>
+<img src="{{ url_for('static', filename='img/conecciones.jpg') }}" alt="foto conecciones" width='500px' height='500px' text-align= 'center'>
+<p>
+    En éste ejemplo hago la obtención de los datos a través de un libro excel que posee las informaciones en distintas hojas:
+</p>
+<img src="{{ url_for('static', filename='img/base.jpg') }}" alt="foto conecciones" width='900px' height='500px' text-align= 'center'>
+<p>
+    pero ya he relizado conexiones a través de base de datos MySQL, Sharepoint, Acces, Carpetas, sitios web, etc.. Puedo decir que es bastante fácil de utilizarlos.
+</p>
+
+<h2> Vinculación entre las bases de datos </h2>
+<p>
+    Para que las informaciones se cruzen entre las diferentes bases de datos, se necesitan hacer las vinculaciones entre las tablas de información. Es un proceso que se debe tener cuidado y estar atento principalmente a las columnas llaves, para que al momento de relacionarlas estén todas con el mismo tipo de datos y que realmente se puedan relacionar.
+</p>
+<img class='image_content' src="{{ url_for('static', filename='img/vincular.jpg') }}" alt="foto vinculaciones">
+
+<h2> Diseño del mapa </h2>
+<p>
+    Para el diseño del mapa utilize las ciudades para la ubicación de los puntos, pero también se puede utilizar los puntos de latitud y longitud, y con eso inclusive calcular la distancia en línea récta entre dos puntos.
+</p>
+<img class='image_content' src="{{ url_for('static', filename='img/mapa.jpg') }}" alt="foto vinculaciones">
+<p>
+    OBS: un dato importante es cuidar la escrita de las ciudades, para que sea igual al formato que entienda el mapa de power bi.
+</p>
+
+<h2> Repositorio del proyecto </h2>
+<p>
+    Si te interesa saber más o sacar alguna consulta sobre este proyecto, puedes escribirme un correo o te invito a que verifiques el repositorio con los datos en GitHub.
+        <a target="_blank" href="https://github.com/fkrausse/Ventas---Power-BI">
+            <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+
+</p>
+
 {% endblock %}
